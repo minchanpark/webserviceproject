@@ -3,7 +3,7 @@ package com.example.bean;
 import java.util.Date;
 
 public class BoardVO {
-	private int seq;
+	private int seg;
 	private String category;
 	private String title;
 	private String writer;
@@ -11,11 +11,11 @@ public class BoardVO {
 	private Date regdate;
 	private int cnt;
 	
-	public int getSeq() {
-		return seq;
+	public int getSeg() {
+		return seg;
 	}
-	public void setSeq(int seq) {
-		this.seq = seq;
+	public void setSeg(int seq) {
+		this.seg = seq;
 	}
 	public String getTitle() {
 		return title;
@@ -47,9 +47,7 @@ public class BoardVO {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
-	public String getCategory() {
-		return category;
-	}
+	public String getCategory() {return category;}
 	public void setCategory(String category) {
 		this.category = category;
 	}
