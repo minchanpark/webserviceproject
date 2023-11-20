@@ -30,6 +30,7 @@ public class BoardDAO {
 			stmt.setString(2, vo.getTitle());
 			stmt.setString(3, vo.getWriter());
 			stmt.setString(4, vo.getContent());
+
 			result = stmt.executeUpdate();
 		} catch (Exception e) {
 			e.printStackTrace();
